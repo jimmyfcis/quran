@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/prayer_times/screens/prayer_time_screen.dart';
+import 'package:new_quran/features/qiblah/qiblah_screen.dart';
 
 void main() {
   runApp(QuranApp());
@@ -14,7 +14,7 @@ class QuranApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: PrayerTimesScreen(),
+      home: QiblahScreen(),
     );
   }
 }
